@@ -1,16 +1,22 @@
-## Hi there 👋
+Hi, I'm Krutik 👋
 
-<!--
-**kiturk3/kiturk3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Senior Android Developer
 
-Here are some ideas to get you started:
+📱 12+ years of Android development
+⚡ Kotlin | Jetpack Compose | MVVM | Clean Architecture
+💉 Hilt | Room | Retrofit | Coroutines | Flow
+☁ Firebase | REST APIs
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Projects
+• Recipe Vault
+• E-commerce App
+• Notes App
+
+Currently Learning
+• Modularization
+• KMP
+• Advanced Compose
+
+Reach me
+LinkedIn : https://www.linkedin.com/in/krutik-khokhara/
+Email : kbkhokhara@gmail.com
