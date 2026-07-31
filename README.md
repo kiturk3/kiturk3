@@ -59,23 +59,6 @@ This repository doubles as my personal **Material 3 (MD3)** portfolio website, h
 
 ---
 
-## 📦 How to Deploy on GitHub Pages
-
-1. **Push Changes to GitHub**:
-   ```bash
-   git add .
-   git commit -m "Build Material 3 portfolio website and PDF resume"
-   git push origin main
-   ```
-2. **Enable GitHub Pages**:
-   - Go to your repository settings on GitHub: `https://github.com/kiturk3/kiturk3/settings/pages`
-   - Under **Source**, select **Deploy from a branch**.
-   - Choose `main` branch and `/ (root)` directory, then click **Save**.
-3. **Access Your Live Site**:
-   - Your site will be published at `https://kiturk3.github.io/`
-
----
-
 ## 📬 Contact Me
 
 - **Email**: [kbkhokhara@gmail.com](mailto:kbkhokhara@gmail.com)
