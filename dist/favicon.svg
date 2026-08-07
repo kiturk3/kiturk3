@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" rx="28" fill="url(#grad)"/>
+  <!-- Android Bugdroid Antennae & Head outline -->
+  <path d="M30 38 L22 24 M70 38 L78 24" stroke="#22D3EE" stroke-width="4" stroke-linecap="round"/>
+  <!-- Capital K stylized badge -->
+  <path d="M36 28 V72 M36 50 L64 28 M42 45 L64 72" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- AI sparkle -->
+  <circle cx="72" cy="32" r="3" fill="#22D3EE"/>
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+</svg>
