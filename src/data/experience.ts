@@ -2,85 +2,69 @@ import { ExperienceItem } from '../types';
 
 export const experienceData: ExperienceItem[] = [
   {
-    id: "exp-1",
-    company: "US Hospitality & Tech Clients",
-    role: "Senior Android & Lead POS Systems Engineer",
-    period: "2020 - Present",
-    location: "Remote / Ahmedabad",
-    type: "Contract / Full-time Lead",
-    summary: "Architected and scaled next-generation self-service ordering kiosks (KIOSK V3) and high-volume Point of Sale (POS V2) systems running live across hundreds of US restaurant locations.",
+    id: "exp-grubbrr",
+    company: "Grubbrr Systems Ind. PVT LTD.",
+    role: "Senior Software Engineer",
+    period: "June 2017 – Present",
+    location: "US Onsite Client Experience / Ahmedabad, India",
+    type: "Full-time Lead",
+    summary: "Architected and shipped enterprise KIOSK V3 self-service ordering systems and POS V2 Android POS platforms live across multiple US restaurant & hospitality locations on low-spec hardware.",
     responsibilities: [
-      "Engineered cross-platform Kiosk V3 frontend using Jetpack Compose, Svelte, and Tauri for low-spec Android hardware.",
-      "Developed native Kotlin drivers for Epson receipt printers, barcode scanners, cash drawers, and USB/Serial peripherals.",
-      "Built real-time kitchen sync and offline transaction persistence with Room DB and state-machine socket pipelines.",
-      "Mentored junior engineers and instituted CI/CD automated release pipelines using GitHub Actions and Gradle."
+      "Architected and shipped KIOSK V3 — a self-service food & beverage ordering system built natively for Android and extended cross-platform with Svelte/Tauri.",
+      "Maintained and extended POS V2 — a native Android Point-of-Sale system handling order processing, payment flows, and real-time kitchen display sync.",
+      "Led architecture decisions adopting MVVM pattern and Jetpack Compose for new UI modules, reducing view-layer complexity and improving testability.",
+      "Built hardware integrations for Epson receipt printers, USB/serial peripheral devices, and barcode scanners within native Android and Tauri environments.",
+      "Conducted code reviews enforcing SOLID principles and Kotlin best practices; introduced CI/CD pipelines using Git hooks and automated build workflows.",
+      "Led sprint planning and estimation cycles, coordinating cross-functional delivery across engineering, QA, and US-based client stakeholders.",
+      "Integrated AI-assisted development workflows (Claude, Cursor, Codex) into daily engineering cycles to accelerate feature iteration.",
+      "Collaborated onsite with US-based clients on requirements, delivery timelines, and post-launch support across the full product lifecycle."
     ],
     achievements: [
-      "Scaled POS & Kiosk app deployment to 500+ US dining venues with 99.95% uptime.",
-      "Reduced receipt print transaction latency by 65% using asynchronous USB/Serial stream buffers.",
-      "Integrated Agentic RAG assistant to auto-diagnose hardware disconnects in kiosk fleets."
+      "Scaled KIOSK V3 & POS V2 to live production across multiple US dining locations running reliably on low-spec kiosk hardware.",
+      "Engineered native hardware drivers for Epson receipt printers, USB/serial devices, and barcode scanners.",
+      "Adopted Jetpack Compose & MVVM architecture across core products to reduce view-layer complexity."
     ],
-    technologies: ["Kotlin", "Jetpack Compose", "Java", "Svelte", "Tauri", "Epson ESC/POS", "USB/Serial", "Room DB", "Hilt", "Coroutines", "GitHub Actions"],
+    technologies: ["Kotlin", "Java", "Jetpack Compose", "MVVM", "Room", "Retrofit", "Hilt", "Svelte", "Tauri", "Epson ESC/POS", "USB/Serial", "Barcode Scanners", "Claude", "Cursor", "Codex"],
     featured: true
   },
   {
-    id: "exp-2",
-    company: "Logistics & Mobility Enterprise Solutions",
-    role: "Senior Mobile Engineer",
-    period: "2017 - 2020",
+    id: "exp-trisoft",
+    company: "TriSoftDevelopers",
+    role: "Founder & Software Engineer",
+    period: "Jan 2016 – June 2017",
     location: "Ahmedabad, India",
-    type: "Full-time",
-    summary: "Spearheaded mobile development for international logistics, courier parcel tracking (DispatchMe in Portugal), and public transit route tracking (RMTS Smart City).",
+    type: "Boutique Consultancy",
+    summary: "Founded a boutique Android consultancy; independently architected and delivered 10+ production apps for clients across India, Portugal, and the UAE.",
     responsibilities: [
-      "Created DispatchMe parcel management application leveraging CameraX, custom QR scanning algorithms, and REST APIs.",
-      "Built real-time GPS telemetry and MapBox vector map rendering for Rajkot Municipal Transport System (RMTS).",
-      "Implemented offline-first SQLite cache with automatic background sync using WorkManager."
+      "Founded boutique Android engineering firm and managed full client lifecycle from initial requirements through post-launch delivery.",
+      "Built RMTS — a real-time GPS bus tracking app for Rajkot Municipal Transport with live next-bus monitoring.",
+      "Developed AfsarBitiya (competitive exam prep for GPSC, NEET, IIT) and EasyTax (income tax calculator)."
     ],
     achievements: [
-      "Processed over 100,000 daily parcel scans across Portuguese courier routes.",
-      "Optimized battery usage during continuous background GPS tracking by 40%.",
-      "Delivered RMTS next-bus arrival tracking serving over 50,000 daily active transit riders."
+      "Delivered 10+ production-grade Android applications for international clients across India, Portugal, and UAE.",
+      "Shipped RMTS live GPS transit tracker serving daily public bus commuters in Rajkot."
     ],
-    technologies: ["Kotlin", "Android SDK", "CameraX", "MapBox API", "WorkManager", "Retrofit", "SQLite", "Firebase Cloud Messaging"],
+    technologies: ["Android SDK", "Java", "Kotlin", "GPS Telemetry", "Firebase DB", "SQLite", "XML Views", "REST APIs"],
     featured: true
   },
   {
-    id: "exp-3",
-    company: "HealthTech & Interactive Apps",
-    role: "Android Solutions Architect",
-    period: "2014 - 2017",
+    id: "exp-eheuristic",
+    company: "eHeuristic Solutions",
+    role: "Software Engineer",
+    period: "May 2014 – Jan 2016",
     location: "Ahmedabad, India",
     type: "Full-time",
-    summary: "Designed and developed veterinary healthcare application (PetsApp) and real-time graphics chat app (BeamItUp).",
+    summary: "Developed native Android mobile solutions across logistics, healthcare, messaging, custom launcher extensions, and interactive gaming.",
     responsibilities: [
-      "Architected PetsApp veterinary appointment, medical history, and vaccine schedule tracking platform with offline dual-mode sync.",
-      "Engineered BeamItUp XMPP messaging engine and custom 2D OpenGL ES particle graphics engine for animated chat stickers.",
-      "Implemented secure AES-256 local database encryption for health compliance."
+      "Shipped DispatchMe — a courier management app with QR code scanning deployed for a Portuguese logistics company.",
+      "Developed PetsApp — a vet appointment and vaccine tracker with online (Retrofit) and offline (Room/SQLite) dual-mode architecture.",
+      "Built EdgeAlert (Samsung Edge custom notification system), BeamItUp (XMPP location-based chat with OpenGL UI animations), Cric'O (2D cricket card game), and MedicalPearls (pharma reference app)."
     ],
     achievements: [
-      "Achieved zero data loss during offline rural farm clinic appointments.",
-      "Maintained smooth 60fps particle animation rendering on entry-level Android devices using custom OpenGL shaders."
+      "Successfully deployed DispatchMe courier scanner app for Portuguese logistics operations.",
+      "Built dual-mode online/offline sync architecture for PetsApp veterinary record management."
     ],
-    technologies: ["Java", "Android SDK", "OpenGL ES 2D", "XMPP Protocol", "Room DB", "AES Encryption", "Retrofit"],
-    featured: false
-  },
-  {
-    id: "exp-4",
-    company: "EdTech & Mobile Innovations",
-    role: "Mobile Application Developer",
-    period: "2012 - 2014",
-    location: "Ahmedabad, India",
-    type: "Full-time",
-    summary: "Developed AfsarBitiya competitive exam preparation app and foundational Android SDK utilities.",
-    responsibilities: [
-      "Constructed offline question bank caching system enabling students in rural areas to study without active internet.",
-      "Integrated Firebase Cloud Messaging for instant mock test notifications and daily quiz alerts."
-    ],
-    achievements: [
-      "Grew active student user base to 25,000+ registered exam candidates.",
-      "Reduced initial app payload size by 35% using ProGuard and image asset compression."
-    ],
-    technologies: ["Java", "Android SDK", "Firebase DB", "SQLite", "XML Views", "JSON Parsing"],
+    technologies: ["Java", "Android SDK", "CameraX / QR Scanning", "XMPP Protocol", "OpenGL ES 2D", "SQLite", "Retrofit"],
     featured: false
   }
 ];

@@ -16,14 +16,13 @@ const navLinks = [
   { name: 'Projects', href: '#projects' },
   { name: 'GitHub', href: '#github' },
   { name: 'Achievements', href: '#achievements' },
-  { name: 'Blog', href: '#blog' },
   { name: 'Contact', href: '#contact' },
 ];
 
 export const Navbar: React.FC<NavbarProps> = ({ onOpenCommandPalette }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const activeSection = useScrollSpy(['home', 'about', 'skills', 'experience', 'projects', 'github', 'achievements', 'blog', 'contact']);
+  const activeSection = useScrollSpy(['home', 'about', 'skills', 'experience', 'projects', 'github', 'achievements', 'contact']);
 
   useEffect(() => {
     const handleScroll = () => {

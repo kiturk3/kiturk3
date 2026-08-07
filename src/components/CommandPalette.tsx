@@ -45,7 +45,6 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
     { id: 'nav-experience', title: 'Go to Experience Timeline', category: 'Navigation', icon: <ArrowRight className="w-4 h-4 text-blue-400" />, action: () => { window.location.hash = 'experience'; onClose(); } },
     { id: 'nav-projects', title: 'Go to Featured Projects', category: 'Navigation', icon: <ArrowRight className="w-4 h-4 text-blue-400" />, action: () => { window.location.hash = 'projects'; onClose(); } },
     { id: 'nav-github', title: 'Go to GitHub Stats', category: 'Navigation', icon: <Github className="w-4 h-4 text-blue-400" />, action: () => { window.location.hash = 'github'; onClose(); } },
-    { id: 'nav-blog', title: 'Go to Tech Articles', category: 'Navigation', icon: <FileText className="w-4 h-4 text-blue-400" />, action: () => { window.location.hash = 'blog'; onClose(); } },
     { id: 'nav-contact', title: 'Go to Contact Form', category: 'Navigation', icon: <Mail className="w-4 h-4 text-blue-400" />, action: () => { window.location.hash = 'contact'; onClose(); } },
 
     // Actions

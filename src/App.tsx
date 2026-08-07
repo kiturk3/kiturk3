@@ -10,8 +10,6 @@ import { Experience } from './sections/Experience';
 import { FeaturedProjects } from './sections/FeaturedProjects';
 import { GitHubStats } from './sections/GitHubStats';
 import { Achievements } from './sections/Achievements';
-import { BlogSection } from './sections/BlogSection';
-import { Testimonials } from './sections/Testimonials';
 import { ContactSection } from './sections/ContactSection';
 import { CommandPalette } from './components/CommandPalette';
 import { useCommandPalette } from './hooks/useCommandPalette';
@@ -75,8 +73,6 @@ export function App() {
           />
           <GitHubStats />
           <Achievements />
-          <BlogSection />
-          <Testimonials />
           <ContactSection />
         </main>
 

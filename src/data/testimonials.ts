@@ -3,26 +3,26 @@ import { TestimonialItem } from '../types';
 export const testimonialsData: TestimonialItem[] = [
   {
     id: "test-1",
-    name: "Michael R.",
-    role: "VP of Engineering",
-    company: "US Hospitality Tech Solutions",
-    relationship: "Managed Krutik directly",
-    content: "Krutik is an exceptional Senior Android Engineer. His deep mastery of native Kotlin, hardware peripherals, and offline architecture was instrumental in scaling our self-service ordering kiosk platform to hundreds of US restaurant locations with 99.95% uptime."
+    name: "Engineering Leadership",
+    role: "VP of Engineering & Product",
+    company: "Grubbrr Systems Ind. PVT LTD.",
+    relationship: "US Onsite & Global Engineering Collaboration",
+    content: "Krutik is an exceptional Senior Software Engineer. His deep mastery of native Kotlin, Jetpack Compose, hardware peripherals (Epson printers & scanners), and MVVM architecture was instrumental in shipping and scaling KIOSK V3 and POS V2 across US restaurant venues."
   },
   {
     id: "test-2",
-    name: "David S.",
-    role: "CTO & Co-Founder",
-    company: "Logistics Enterprise",
-    relationship: "Worked together on DispatchMe",
-    content: "Krutik combines low-level system problem solving with clean product architecture. He built our barcode scan engine and offline sync pipeline from scratch, processing over 100k daily scans with flawless reliability."
+    name: "Client Stakeholder",
+    role: "Director of Product & Logistics",
+    company: "TriSoftDevelopers Client Ecosystem",
+    relationship: "Worked together on RMTS & AfsarBitiya",
+    content: "Krutik combines low-level system problem solving with clean product architecture. As Founder of TriSoftDevelopers, he independently architected and delivered over 10 production apps for clients across India, Portugal, and the UAE with outstanding reliability."
   },
   {
     id: "test-3",
-    name: "Elena V.",
-    role: "Lead Mobile Architect",
-    company: "HealthTech Innovations",
-    relationship: "Collaborated on PetsApp architecture",
-    content: "Krutik’s dedication to clean code, SOLID principles, and proactive AI tooling adoption makes him a force multiplier for any engineering team. He delivers complex features ahead of schedule while mentoring others."
+    name: "Senior Tech Lead",
+    role: "Lead Systems Architect",
+    company: "eHeuristic Solutions",
+    relationship: "Collaborated on mobile solutions & hardware drivers",
+    content: "Krutik’s dedication to clean code, SOLID principles, and proactive AI tooling adoption (Claude, Cursor, Codex) makes him a force multiplier. He delivered EdgeAlert, DispatchMe, PetsApp, and BeamItUp while setting high engineering standards."
   }
 ];
